@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 8px;
+}
+body{
+  background: rgb(8, 34, 64);
+  
+  color:rgb(160, 189, 198) ;
+  font-family: 'Zilla Slab', serif;
+  font-size: 2.5rem;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  margin-top: 4rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+p{
+  font-size: 3rem;
+  text-align: center;
+}
+h1{
+  font-size: 10rem;
+  font-weight: 600;
+}
+h3{
+  width: 40%;
+  text-align: center;
+  margin-top: 3rem;
+}
+#result{
+  margin-top: 3rem ;
+  width: 20%;
+  height: 20%;
+  background-color: rgb(160, 189, 198)  ;
+  border: 5px solid rgb(90, 126, 137) ;
+  font-size: 15rem;
+  text-align: center;
+  color:rgb(8, 34, 64);
+  font-weight: 600;
+}
+.container2{
+  margin-top: 8rem;
+  display: flex;
+ justify-content: space-between;
+ width: 50%;
+}
+.check-part{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.reply-part{
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  margin-top: 4.5rem;
+   line-height: 5rem;
+}
+.fa.fa-heart{
+  color:red;
+  margin-right:1.5rem;
+}
+.fa-solid.fa-trophy{
+  color:orange;
+  margin-right:1.5rem;
+}
+.reply{
+  margin-top:5.5rem;
+}
+input{
+  width: 23rem;
+ height: 12rem;
+ border: 5px solid rgb(90, 126, 137) ;
+ background: transparent;
+ color:rgb(160, 189, 198) ;
+ font-size: 8rem;
+ font-weight: 600;
+ text-align: center;
+ margin-top:2.5rem;
+ margin-left: 2.5rem;
+}
+
+input:focus{
+ border: 5px solid  rgb(160, 189, 198) ;
+}
+button{
+  margin-top: 3rem;
+  width: 12rem;
+  height: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  color:rgb(160, 189, 198) ;
+  border:2px solid black;
+  background:transparent;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.winning{
+  display: block;
+}
+.toHigh{
+  display: block;
+}
+.toLow{
+  display: block;
+}
+.over{
+  display: block;
+}
+img{
+  width: 4rem;
+  height: 4rem;
+  
+}
+.fa-solid.fa-arrow-down,.fa-solid.fa-arrow-up,img{
+  margin-right: 2rem;
+}
